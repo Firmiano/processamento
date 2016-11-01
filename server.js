@@ -1,7 +1,8 @@
 'use strict'
 
 const request = require('request');
-require('./dbConnect.js')('mongodb://localhost:27017/comparador');
+//require('./dbConnect.js')('mongodb://localhost:27017/comparador');
+require('./dbConnect.js')('mongodb://firmiano:firmiano@ds139847.mlab.com:39847/comparador');
 var Comparador = require('./comparador.js')();
 var count = 0;
 start();
